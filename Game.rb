@@ -1,4 +1,4 @@
-load './Dice.rb'
+load './dice.rb'
 
 class Game
   def initialize
@@ -24,7 +24,7 @@ class Game
 
     raise GameNumberTooBigError if user_number > @dice.dice_limit
     raise GameWrongNumberError if @dice_value != user_number
-    
+
     puts "Congrats, you won!"
   end
 end
