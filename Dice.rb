@@ -1,7 +1,9 @@
 class Dice
   attr_reader :dice_limit
 
-  def initialize(dice_limit = 6)
+  DICE_LIMIT = 6
+
+  def initialize(dice_limit = DICE_LIMIT)
     @dice_limit = dice_limit
   end
 
