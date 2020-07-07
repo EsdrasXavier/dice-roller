@@ -1,4 +1,4 @@
-load './dice.rb'
+require_relative './dice'
 
 class Game
   def initialize
@@ -28,4 +28,3 @@ class Game
     puts "Congrats, you won!"
   end
 end
-
