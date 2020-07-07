@@ -6,10 +6,10 @@ class Dice
   end
 
   def roll
-    rand(1..@dice_limit)
+    rand(1..dice_limit)
   end
 
   def dice_range
-    "1..#{@dice_limit}"
+    "1..#{dice_limit}"
   end
 end
