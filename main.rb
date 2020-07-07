@@ -1,4 +1,4 @@
-load './Game.rb';
+load './game.rb';
 
 game = Game.new
 
